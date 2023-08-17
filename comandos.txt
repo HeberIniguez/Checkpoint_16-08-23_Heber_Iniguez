@@ -1,0 +1,20 @@
+  124  git init
+  125  git remote add origin https://github.com/HeberIniguez/Checkpoint_16-08-23_Heber_Iniguez.git
+  126  touch main.js index.html
+  127  git add .
+  128  git commit -m "commit 01 de HeberIniguez"
+  129  git push -u origin master
+  130  git checkout -b feature
+  131  mkdir Hardware Software SeguridadInformatica
+  132  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  133  git add .
+  134  git push --set-upstream origin feature
+  135  git commit -m "commit 02 de HeberIniguez"
+  136  git push -u origin feature
+  137  git switch master
+  138  git status
+  139  mv main.js resumenHardware.txt
+  140  mv index.html resumenSoftware.txt
+  141  code .
+  142  touch comandos.txt
+  143  history 20 > comandos.txt
